@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# React router가 있는 SPA 다중 페이지를 구축하기 (BE API와 FE를 함께 사용해서 작업)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. 연습 시간
 
-## Available Scripts
+2. loaded()를 이용한 데이터 가져오기
 
-In the project directory, you can run:
+3. loaded() 데이터를 라우트 컴포넌트에서 사용하기
 
-### `npm start`
+4. loaded() 데이터의 다양한 활용법
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. loaded() 코드를 저장해야 하는 위치
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6. loaded() 함수가 실행되는 시기
 
-### `npm test`
+7. 현재 네비게이션 상태를 UI에 반영하기
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+8. loaded()에서 응답 리턴하기
 
-### `npm run build`
+9. loaded()로 가는 코드 종류
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+10. 커스텀 오류를 이용한 오류 처리
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+11. 오류 데이터를 추출하고 응답 내보내기
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+12. json() 유틸리티 함수
 
-### `npm run eject`
+13. 동적 라우트와 loaded()
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+14. useRouterLoaderData Hook 및 다른 라우트에서 데이터 액세스하기
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+15. 데이터 제출 준비하기
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+16. action() 함수 사용하기
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+17. 프로그램적으로 데이터 제출하기
 
-## Learn More
+18. 제출 상태를 이용하여 UI 상태 업데이트하기
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+19. 사용자 입력을 검증하고 검증 오류 출력하기
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+20. request() 메서드로 액션 재사용하기
 
-### Code Splitting
+21. useFetcher()를 이용한 배후 작업
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+22. defer() 함수로 데이터 가져오기를 연기하는 방법
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+23. 연기해야 할 데이터를 제어하는 방법
