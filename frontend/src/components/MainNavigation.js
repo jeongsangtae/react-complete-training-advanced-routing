@@ -1,6 +1,10 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import classes from "./MainNavigation.module.css";
+
+const navLinkClass = ({ isActive }) => {
+  return isActive ? classes.active : undefined;
+};
 
 function MainNavigation() {
   return (
@@ -8,10 +12,14 @@ function MainNavigation() {
       <nav>
         <ul className={classes.list}>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/" className={navLinkClass}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to="/events">Events</Link>
+            <NavLink to="/events" className={navLinkClass}>
+              Events
+            </NavLink>
           </li>
         </ul>
       </nav>
