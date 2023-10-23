@@ -11,9 +11,9 @@ const EventsPage = () => {
     <>
       <h1>Event page!</h1>
       <ul>
-        {DUMMY_EVENT.map((dummyEvent) => (
-          <li key={dummyEvent.id}>
-            <Link to={dummyEvent.id}>{dummyEvent.title}</Link>
+        {DUMMY_EVENT.map((event) => (
+          <li key={event.id}>
+            <Link to={event.id}>{event.title}</Link>
           </li>
         ))}
       </ul>
